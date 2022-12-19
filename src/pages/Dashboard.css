@@ -1,0 +1,17 @@
+.blocks {display:flex; gap:25px; justify-content:left; flex-wrap:wrap; margin:30px 0; text-decoration:none;} 
+
+.block-link {position:relative; text-decoration:none; transition:all 150ms linear;}
+.block-link a {text-decoration:none;}
+.block-link:hover {transform:scale(1.1); z-index:3;}
+.block-item {background-color:#f3f3f3; min-width:150px; min-height:150px; padding:20px; position:relative; display:flex; justify-content:center; flex-direction:column; align-items:center; transition:all 150ms linear;}
+.block-item p {text-align:center; color:var(--secondaryColor); font-size:18px;}
+.block-options {width:36px; position:absolute; right:-18px; top:50%; transform:translateY(-50%); z-index:300;}
+.botao-acao {width:36px; height:36px; float:left; background-color:#333; cursor:pointer; color:#fff; text-align:center; margin:2px 0; line-height:36px; border-radius:50%; transition:all 150ms linear;}
+.botao-acao:hover {transform:scale(1.1);}
+.botao-editar {background-color:var(--primaryColor);}
+.botao-excluir {background-color:red;}
+.icon-add {font-size:58px; color:var(--primaryColor);}
+
+@media (max-width:768px){
+    .block-link {width:calc(100% - 26px);}
+}

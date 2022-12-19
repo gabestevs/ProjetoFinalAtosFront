@@ -1,0 +1,19 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+
+:root {
+    --primaryColor: #16213E;
+    --secondaryColor: #0F3460;
+    --thirdColor: #00C2BF;
+    --callToAction: #FF8C32;
+    --callToActionHover: #FFA057; 
+}
+
+body {height:100vh;}
+
+::selection {background-color:var(--primaryColor); color:#fff; text-shadow:none;}
+::-moz-selection {background-color:var(--primaryColor); color:#fff; text-shadow:none;}
+
+body {height:100%; font-family: 'Barlow', sans-serif; background-color:var(--secondaryColor);}
+label, input, select, textarea, button {font-family: 'Barlow', sans-serif;}
+
+.form-container {margin:7px 0;}

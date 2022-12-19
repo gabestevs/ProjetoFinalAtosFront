@@ -1,0 +1,26 @@
+.pageSubTitle {color:var(--primaryColor); font-size:32px; margin:20px 0 0;}
+.list-link {max-width:650px;}
+.link-item {background-color:#fff; margin:10px 0; border-radius:3px; padding:10px; display:flex; justify-content:space-between; align-items:center;}
+.action-link {width:46px; height:46px; float:left; text-align:center; line-height:52px; cursor:pointer; font-size:24px; background-color:#333; margin-left:4px; color:#fff; border-radius:50%;}
+.action-go {background-color:var(--primaryColor);}
+.action-delete {background-color:red;}
+
+.form-links-box {margin:20px 0;}
+.form-links-box h3 {color:#fff; margin-bottom:10px;}
+.form-link-container {display:flex; gap:10px; flex-wrap:wrap;}
+.form-add-link {height:46px; padding-left:10px; padding-right:10px; font-size:18px;}
+.form-add-link:focus {outline:none;}
+.form-add-link-button {width:160px; height:46px; background-color:var(--callToAction); border:0; color:#fff; font-size:20px; border-radius:3px; cursor:pointer;}
+.form-add-link-button:hover {background-color:var(--callToActionHover);}
+
+.form-address-item {background:transparent; color:#fff; min-width:320px; border:1px solid #fff; padding:10px;}
+.link-pagina {color:#fff; text-decoration:none; font-size:22px;}
+.link-pagina:hover {color:var(--primaryColor);}
+
+@media (max-width:768px){
+    .pageSubTitle {font-size:26px;}
+}
+
+@media (max-width:480px){
+    .form-address-item {min-width:100%;}
+}
